@@ -11,12 +11,11 @@
 
         <p class="text">Bienvenido</p>
         <form class="login-form">
-          <input type="text" name="username" placeholder="Usuario" autocomplete="off">
-          <input type="password" name="password" placeholder="contraseña">
+          <input type="text" name="username" placeholder="Usuario">
+          <input type="password" name="password" placeholder="Contraseña">
           <button>Iniciar sesion</button>
           <p class="count">¿No tienes cuenta? <a class="link" href="/register">Registrate</a></p>
         </form>
       </div>
-      <button class="btn btn-danger">Hola</button>
       </div>
 @endsection
