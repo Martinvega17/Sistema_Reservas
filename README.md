@@ -83,4 +83,4 @@ It is a hotel reservation project for administrators.
 13. Visit localhost:8000 in your browser
 
 # Coolaboradores
-Martin Salvador Vega Pere
+Martin Salvador Vega Perez
