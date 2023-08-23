@@ -64,23 +64,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Introduction
-It is a hotel reservation project for administrators.
-## Installation
-1. Clone the repo and cd into it
-2. <code>composer install </code>
-3. rename or copy <code>.env.example</code> file to <code>.env</code>
-4. Enter your database credentials in your <code>.env</code> file <br />
-5. Change <code>BROADCAST_DRIVER</code> to <code>pusher</code> in your <code>.env</code> file
-6. Enter your Pusher credentials in your <code>.env</code> file. If needed, change cluster in <code>config/broadcasting.php</code>
-7. <code>php artisan migrate</code>
-8. <code>php artisan key:generate</code>
-9. Enter your Pusher key in <code>resources/assets/js/bootstrap.js</code>.If needed, change cluster as well
-10. <code>npm install</code>
-11. <code>npm run dev</code>
-12. <code>php artisan serve</code> or use Laravel Valet
-13. Visit localhost:8000 in your browser
-
-# Coolaboradores
-Martin Salvador Vega Perez
+# reservas

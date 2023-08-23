@@ -18,7 +18,7 @@ class BarController extends Controller
     }
 
     public function exportAllServicesofBarPDF() {
-        return (new BaresExport)->download('bares.pdf', Excel::DOMPDF);
+        // return (new BaresExport)->download('bares.pdf', Excel::DOMPDF);
     }
 
 

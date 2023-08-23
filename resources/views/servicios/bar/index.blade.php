@@ -5,7 +5,8 @@
 <div class="row">
     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
         <h3>Listado de Servicios del bar <a href="{{route('bar.create')}}"><button class="btn btn-success">Nuevo</button></a></h3>
-
+            <h2><a href="{{route('exports.bar.export')}}"><button class="btn btn-warning">Exportar a Excel</button></a></h2>
+            <h2><a href="{{route('exports.bar.export')}}"><button class="btn btn-primary">Exportar a PDF</button></a></h2>    
     
     </div>
 </div>

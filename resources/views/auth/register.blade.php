@@ -6,10 +6,8 @@
 @include('layouts.partials.messages')
     <h1 class="text-center">Create account</h1>
     <div class="form-body">
-        <img src="{{asset('assets/img/219983.png')}}" alt="user-login">
-        <link rel="apple-touch-icon" href="{{asset('assets/img/apple-touch-icon.png')}}">
-
-        <p class="text">Bienvenido</p>
+      <img src="{{ asset('assets/img/219983.png') }}">
+      <p class="text">Bienvenido</p>
         <form class="login-form">
           <input type="text" name="name" placeholder="Nombre completo">
           <input type="text" name="username" placeholder="Usuario">
@@ -20,6 +18,4 @@
           <p class="count">¿Ya tienes cuenta? <a class="link" href="/login">Inicia sesion</a></p>
         </form>
       </div>
-        
-
 @endsection

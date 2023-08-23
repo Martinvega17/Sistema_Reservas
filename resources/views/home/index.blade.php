@@ -4,24 +4,27 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>TecRoom</title>
+
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
-    
-    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/font-awesome.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}"> --}}
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{asset('assets/css/font-awesome.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/fontawesome.css')}}">
     <link rel="stylesheet" href="{{ url('https://use.fontawesome.com/releases/v6.2.0/css/all.css')}}">
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{asset('assets/css/AdminLTE.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/AdminLTE.min.css')}}">
     <!--Style datatable -->
     <link rel="stylesheet" type="text/css" href="{{asset('https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css')}}"/>
+
     <!-- AdminLTE Skins. Choose a skin from the css/skins
     folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="{{asset('assets/css/_all-skins.min.css')}}">
-    <link rel="apple-touch-icon" href="{{asset('assets/img/apple-touch-icon.png')}}">
-    <link rel="shortcut icon" href="{{asset('assets/img/favicon.ico')}}">
- 
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/_all-skins.min.css')}}">
+    {{-- <img src="{{ Vite::asset('public/assets/img/apple-touch-icon.png') }}">
+    <img src="{{ Vite::asset('public/assets/img/favicon.ico') }}">
+  --}}
   </head>
   <body class="hold-transition skin-blue sidebar-mini">
     
@@ -248,19 +251,19 @@
         <strong>Copyright &copy; 2019-2023 <a href="www.incanatoit.com">IncanatoIT</a>.</strong> All rights reserved.
       </footer>
     
-
-      
-    <!-- jQuery 2.1.4 -->
     <!-- JQuery 3.6.1 -->
     <script src="{{asset('assets/js/jquery-3.6.1.min.js')}}"></script>
     <!-- Bootstrap 3.3.5 -->
     <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
     <!-- AdminLTE App -->
     <script src="{{asset('assets/js/app.min.js')}}"></script>
-    <script src="{{ url('assets/js/bootstrap.bundle.min.js')}}"></script>
-    <!-- Js for dataetables -->
+    <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
+    <!-- Js for datatables -->
+    <script src="{{asset('assets/css/bootstrap.min.css')}}"></script>
     <script src="{{asset('assets/js/datatable.js')}}"></script>
-    <script type="text/javascript" src="{{asset('https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js')}}"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" rel="stylesheet" >
+    <script src="{{asset('https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js')}}"></script>
+    <script src="{{asset('https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js')}}"></script>
   </body>
 </html>
